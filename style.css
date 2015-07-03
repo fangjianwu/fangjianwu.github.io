@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: #333;
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+font-size: 12px;
+line-height: 20px;
+color: #222;
+}
+
+a {
+text-decoration: none;
+color: #99AECD;
+}
+a:hover {
+text-decoration: underline;
+color: #4F5D7F;
+}
+
+#wrap {
+margin: 20px auto 10px auto;
+width: 830px;
+background: #fff;
+padding: 10px;
+border: 5px solid #000;
+}
+
+#header {
+height:215px;
+background: #fff url(images/1024px-Chang-an-University_Laborary.jpg) left no-repeat;
+}
+#header h1 {
+font-size: 45px;
+letter-spacing: 0px;
+padding: 17px 0 0 10px;
+color: #993330;
+}
+#header h1 a {
+color: #D1DDEF;
+text-decoration: none;
+font-weight: 600;
+letter-spacing: 0px;
+}
+#header h1 a:hover {
+color: #fff;
+}
+#header h2 {
+font-size: 17px;
+letter-spacing: 0px;
+padding: 17px 0 0 10px;
+color: #ffffcc;
+}
+
+#menu {
+height: 30px;
+line-height: 30px;
+background: #000;
+}
+#menu ul {
+list-style-type: none;
+padding-left: 50px;
+}
+#menu ul li {
+display: block;
+float: left;
+}
+#menu ul li a {
+padding: 0 40px 0 0;
+text-decoration: none;
+font-weight: 600;
+font-size: 15px;
+color: #99ccff;
+}
+#menu ul li a:hover {
+color: #aaa;
+text-decoration: none;
+}
+
+#content {
+padding: 0 20px 20px 0;
+}
+
+.right {
+float: right;
+width: 785px;
+text-align: justify;
+padding-top: 5px;
+}
+.right h2 {
+font-size: 18px;
+font-weight: 100;
+padding: 15px 0 7px 0;
+}
+.right h2 a {
+text-decoration: none;
+}
+.right h2 a:hover {
+
+}
+
+.left {
+float: left;
+width: 160px;
+padding-top: 10px;
+}
+.left h2 {
+margin: 10px 0 0 0;
+padding-left: 10px;
+height: 24px;
+line-height: 24px;
+color: #7988AF;
+font-size: 15px;
+}
+.left ul {
+padding: 10px 0 15px 30px;
+list-style-type: square;
+color: #99AECD;
+}
+.left ul li a {
+text-decoration: none;
+font-weight: 600;
+}
+.left ul li a:hover {
+
+}
+
+#footer {
+text-align: center;
+font-size: 11px;
+color: #aaa;
+}
+#footer a { color: #aaa; }
+#footer a:hover { color: #111; }
+
+img {
+border-width: 5px;
+border-color: #ffffff;
+border-style: solid;
+}
